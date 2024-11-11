@@ -16,6 +16,10 @@ namespace Sprachfeatures
             Console.WriteLine("\nYield Sample");
             YieldSample();
 
+            // Module 002 Sprachfeatures ab C# 10
+            // global Usings aus Usings.g.cs wo System.Drawing definiert wurde
+            Console.WriteLine($"Farbe: {KnownColor.Turquoise}");
+
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
         }
