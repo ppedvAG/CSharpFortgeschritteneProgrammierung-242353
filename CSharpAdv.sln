@@ -3,29 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{EF019393-924F-4EE8-AFE4-0C2B298F22CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{EF019393-924F-4EE8-AFE4-0C2B298F22CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M001_Sprachfeatures", "M001_Sprachfeatures", "{D96FB3DE-17A4-4259-A4BD-5DA0EEDAFE2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprachfeatures", "Sprachfeatures\Sprachfeatures.csproj", "{5B2D29C4-ADA8-42FB-A950-737E76981A54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sprachfeatures", "Sprachfeatures\Sprachfeatures.csproj", "{5B2D29C4-ADA8-42FB-A950-737E76981A54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M003_DelegatesEvents", "M003_DelegatesEvents", "{626A015B-D0BF-4C7C-AA59-4C5DA4665C11}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{61B1D871-2A73-472F-A22E-2974557A96B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{0E9263DC-E116-4B98-9D6C-BF00B6A6A7AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{0E9263DC-E116-4B98-9D6C-BF00B6A6A7AF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_Delegates", "Lab_Delegates\Lab_Delegates.csproj", "{1521B831-C8ED-49EF-B81F-48A9CC52414D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M004_Generics", "M004_Generics", "{8BEC0F69-5E23-4937-8E87-1E448E4493FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{06CC9F8E-E3A6-42EE-91AD-A779DFC5E49F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{06CC9F8E-E3A6-42EE-91AD-A779DFC5E49F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_SolarSystem", "Lab_SolarSystem\Lab_SolarSystem.csproj", "{730F0BF5-28A6-4779-A9DA-9F4309F7DDEC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M005_Serialization", "M005_Serialization", "{52C7A032-17FE-4E86-8BF5-DF8BC7F612CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{5C637615-91B5-45DD-8F9E-342849F39112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization", "Serialization\Serialization.csproj", "{5C637615-91B5-45DD-8F9E-342849F39112}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M006_Threads", "M006_Threads", "{41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{FC1997A0-6099-4433-AFFE-CF189076AADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSync", "ThreadSync\ThreadSync.csproj", "{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +71,14 @@ Global
 		{5C637615-91B5-45DD-8F9E-342849F39112}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C637615-91B5-45DD-8F9E-342849F39112}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C637615-91B5-45DD-8F9E-342849F39112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1997A0-6099-4433-AFFE-CF189076AADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1997A0-6099-4433-AFFE-CF189076AADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1997A0-6099-4433-AFFE-CF189076AADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1997A0-6099-4433-AFFE-CF189076AADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +92,8 @@ Global
 		{06CC9F8E-E3A6-42EE-91AD-A779DFC5E49F} = {8BEC0F69-5E23-4937-8E87-1E448E4493FF}
 		{730F0BF5-28A6-4779-A9DA-9F4309F7DDEC} = {8BEC0F69-5E23-4937-8E87-1E448E4493FF}
 		{5C637615-91B5-45DD-8F9E-342849F39112} = {52C7A032-17FE-4E86-8BF5-DF8BC7F612CE}
+		{FC1997A0-6099-4433-AFFE-CF189076AADB} = {41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}
+		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7} = {41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {228BB0FE-770C-4EF1-B4A3-6152BAC00F37}
