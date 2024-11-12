@@ -10,7 +10,9 @@
 
             //CreateTaskCancellationToken();
 
-            TaskExceptionHandlingSample();
+            //TaskExceptionHandlingSample();
+
+            TaskContinuationSample();
 
             Console.WriteLine("\n\nPress any key to exit");
             Console.ReadKey();
@@ -146,6 +148,47 @@
                     Console.WriteLine(ex.Message);
                 }
             }
+        }
+
+        #endregion
+
+        #region Tasks verketten
+
+        private static void TaskContinuationSample()
+        {
+            var task = new Task(() =>
+            {
+                Console.WriteLine("Task started");
+                Thread.Sleep(1000);
+                Console.WriteLine("Task finished");
+
+                throw new ExecutionEngineException("Execution failed");
+            });
+
+            task.ContinueWith(t => Console.WriteLine("Ok"), TaskContinuationOptions.NotOnFaulted);
+            task.ContinueWith(t => Console.WriteLine("Always"));
+            task.ContinueWith(t => Console.WriteLine("Faulted: " + t.Exception.InnerException.Message), TaskContinuationOptions.OnlyOnFaulted);
+
+            task.Start();
+
+            var task2 = new Task<IEnumerable<int>>(() =>
+            {
+                Console.WriteLine("Task started");
+                Thread.Sleep(1000);
+                Console.WriteLine("Task finished");
+
+                return [12, 13, 14];
+            });
+
+            task2.ContinueWith(t =>
+            {
+                foreach (var item in t.Result)
+                {
+                    Console.WriteLine("prev Task Result: " + item);
+                }
+            });
+
+            task2.Start();
         }
 
         #endregion
