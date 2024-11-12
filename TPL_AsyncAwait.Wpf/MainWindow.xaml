@@ -1,0 +1,20 @@
+﻿<Window x:Class="TPL_AsyncAwait.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TPL_AsyncAwait.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="450">
+    <StackPanel Margin="10">
+        <Button Click="Start" Content="Start" />
+        <Button Click="StartTaskRun" Content="Start Task" />
+        <Button Click="StartAsyncAwait" Content="Start Async Await" />
+        <Button Click="CancelTask" Content="Cancel Task" />
+        <Button Click="StartHttpClient" Content="Start Http Request" />
+        <Button Click="StartLegacyCode" Content="Start Very Slow Legacy Code" />
+        <ScrollViewer Height="600" MouseDoubleClick="Clear">
+            <TextBlock Name="Output" FontSize="18" />
+        </ScrollViewer>
+    </StackPanel>
+</Window>
