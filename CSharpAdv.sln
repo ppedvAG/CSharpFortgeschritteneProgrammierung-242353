@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSync", "ThreadSync\ThreadSync.csproj", "{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_Konto", "Lab_Konto\Lab_Konto.csproj", "{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +100,7 @@ Global
 		{5C637615-91B5-45DD-8F9E-342849F39112} = {52C7A032-17FE-4E86-8BF5-DF8BC7F612CE}
 		{FC1997A0-6099-4433-AFFE-CF189076AADB} = {41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}
 		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7} = {41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}
+		{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978} = {41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {228BB0FE-770C-4EF1-B4A3-6152BAC00F37}
