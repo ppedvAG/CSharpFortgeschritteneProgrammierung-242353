@@ -92,7 +92,12 @@ namespace TPL_AsyncAwait.Wpf
                 Output.Text = "Request gestartet";
                 btn.IsEnabled = false;
 
-                var response = await request;
+                //var resonse = await request;
+
+                // Alternative wenn wir das async Keyword nicht benutzen koennen
+                // dann koennen wir es hiermit umgehen
+                var response = request.ConfigureAwait(false).GetAwaiter().GetResult();
+
                 if (response.IsSuccessStatusCode)
                 {
                     Output.Text = "Response auslesen";
