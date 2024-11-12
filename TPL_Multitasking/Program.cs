@@ -84,11 +84,11 @@
             Task.WaitAny(someTasks.ToArray());
         }
 
-        private static IEnumerable<Task> CreateTasks(Action<int> action, int count = 10)
+        private static IEnumerable<Task> CreateTasks(Action<object?> action, int count = 10)
         {
             for (int i = 0; i < count; i++)
             {
-                yield return new Task(() => action(i));
+                yield return Task.Factory.StartNew(action, i);
             }
         }
 
@@ -135,7 +135,7 @@
                 { 
                     Thread.Sleep(200);
                     throw new NotImplementedException("Not implemented #" + i);
-                }, 1);
+                }, 3);
 
                 Task.WaitAll(tasks.ToArray());
             }
