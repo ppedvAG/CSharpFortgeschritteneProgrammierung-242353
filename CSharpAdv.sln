@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization", "Serializat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M006_Threads", "M006_Threads", "{41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{FC1997A0-6099-4433-AFFE-CF189076AADB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Multithreading", "Multithreading\1_Multithreading.csproj", "{FC1997A0-6099-4433-AFFE-CF189076AADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSync", "ThreadSync\ThreadSync.csproj", "{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ThreadSync", "ThreadSync\2_ThreadSync.csproj", "{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_Konto", "Lab_Konto\Lab_Konto.csproj", "{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Concurrency", "3_Concurrency\3_Concurrency.csproj", "{AA59DDBA-35E1-4E6F-8D03-2A20DF605C5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA59DDBA-35E1-4E6F-8D03-2A20DF605C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA59DDBA-35E1-4E6F-8D03-2A20DF605C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA59DDBA-35E1-4E6F-8D03-2A20DF605C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA59DDBA-35E1-4E6F-8D03-2A20DF605C5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +107,7 @@ Global
 		{FC1997A0-6099-4433-AFFE-CF189076AADB} = {41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}
 		{7D9E3813-DE8C-4AF6-8E79-4A8E5E4E5DE7} = {41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}
 		{7A6597BE-CCB8-4FAD-8035-4EA9ACC5D978} = {41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}
+		{AA59DDBA-35E1-4E6F-8D03-2A20DF605C5B} = {41B63DDF-CB2A-4BDF-8A1F-97ADE12CDE53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {228BB0FE-770C-4EF1-B4A3-6152BAC00F37}
