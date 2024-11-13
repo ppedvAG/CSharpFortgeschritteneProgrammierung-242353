@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace LinqSamples.Data
+namespace BusinessLogic.Data
 {
     public class Car
     {

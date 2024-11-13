@@ -1,4 +1,4 @@
-﻿namespace LinqSamples.Data
+﻿namespace BusinessLogic.Data
 {
     public class Manufacturer
     {

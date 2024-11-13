@@ -1,7 +1,7 @@
 ﻿using Bogus.DataSets;
-using LinqSamples.Data;
+using BusinessLogic.Data;
+using BusinessLogic.Services;
 using Reflection.Attributes;
-using Reflection.Services;
 using System.Linq;
 using System.Reflection;
 using System.Text;

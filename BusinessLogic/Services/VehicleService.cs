@@ -1,8 +1,8 @@
 ﻿using BusinessLogic.Contracts;
-using LinqSamples.Data;
+using BusinessLogic.Data;
 using Reflection.Attributes;
 
-namespace Reflection.Services
+namespace BusinessLogic.Services
 {
     [Service("Fahrzeugverwaltung", 1)]
     public class VehicleService : GenericService<Car>, IVehicleService
@@ -10,7 +10,7 @@ namespace Reflection.Services
         private readonly string? _state;
 
         public VehicleService()
-            : base(DataGenerator.GenerateVehicles(10))
+            : base(DataGenerator.GenerateVehicles(200))
         {
             _state = "Top Secret";
         }

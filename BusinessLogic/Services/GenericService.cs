@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Reflection.Services
+namespace BusinessLogic.Services
 {
     public class DataChangedArgs<T> : EventArgs
     {

@@ -1,4 +1,4 @@
-﻿using LinqSamples.Data;
+﻿using BusinessLogic.Data;
 
 namespace BusinessLogic.Contracts
 {
